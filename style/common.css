@@ -1,0 +1,33 @@
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.m-t {
+  margin-top: 50px;
+}
+.btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  transform: scale(0.9);
+}
+.btn:focus {
+  outline: none;
+}
